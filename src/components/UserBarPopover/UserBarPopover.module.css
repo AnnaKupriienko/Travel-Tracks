@@ -1,0 +1,46 @@
+.btn {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  padding: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+}
+
+.darkblue {
+  color: var(--Dark-Blue);
+  stroke: var(--Dark-Blue);
+}
+
+.gray {
+  color: rgba(50, 63, 71, 0.4);
+  stroke: rgba(50, 63, 71, 0.4);
+}
+
+.btn.darkblue:hover {
+  color: var(--green-hover);
+}
+
+.btn.gray:hover {
+  color: var(--Dark-Blue);
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 15px;
+    line-height: 22.4px; /* 128.571% */
+  }
+}

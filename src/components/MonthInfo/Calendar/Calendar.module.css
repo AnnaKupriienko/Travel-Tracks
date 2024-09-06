@@ -1,0 +1,23 @@
+/* src\components\MonthInfo\Calendar\Calendar.module.css*/
+
+.gridWrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px 18px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .gridWrapper {
+    grid-template-columns: repeat(8, 1fr);
+    gap: 15px 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .gridWrapper {
+    gap: 15px 43px;
+  }
+}

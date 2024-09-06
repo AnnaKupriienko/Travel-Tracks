@@ -1,0 +1,14 @@
+@import url("./css/fonts.css");
+@import url("./css/global.css");
+
+:root {
+  --Main-text: #2F2F2F;
+  --Dark-Blue: #323F47;
+  --green: #9BE1A0;
+  --green-hover: #87D28D;
+  --light-gray: #F0EFF4;
+  --white: #FFFFFF;
+  --red: #EF5050;
+
+  --effect: 0.3s ease-in-out;
+}

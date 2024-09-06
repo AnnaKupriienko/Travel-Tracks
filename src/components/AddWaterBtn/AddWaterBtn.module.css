@@ -1,0 +1,96 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  transition: color var(--effect);
+}
+
+.svgPlus {
+  width: 30px;
+  height: 30px;
+  transition: stroke var(--effect);
+}
+
+
+.btnPrimary {
+  width: 140px;
+  height: 46px;
+  color: var(--white);
+  background-color: var(--Dark-Blue);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+
+.btnPrimary:hover,
+.btnPrimary:focus {
+  color: var(--green);
+}
+
+.btnPrimary:hover .svgPlus,
+.btnPrimary:focus .svgPlus {
+  stroke: var(--green);
+}
+
+.btnSecondary {
+  width: 124px;
+  height: 30px;
+
+  padding: 0;
+  color: var(--Dark-Blue);
+  background-color: transparent;
+}
+
+.btnSecondary span {
+  font-weight: 700;
+  font-size: 16x;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.svgPlusSecondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  stroke: var(--Dark-Blue);
+  background-color: var(--green);
+}
+
+.svgPlusPrimary {
+  stroke: var(--white);
+}
+
+.svgPlusSecondary {
+  stroke: var(--Dark-Blue);
+}
+
+.btnSecondary:hover .svgPlusSecondary,
+.btnSecondary:active .svgPlusSecondary {
+  stroke: var(--white);
+  background-color: var(--Dark-Blue);
+}
+
+@media (min-width: 768px) {
+  .btnPrimary {
+    width: 178px;
+    height: 60px;
+    padding: 18px 0;
+  }
+
+  .btnPrimary span {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1440px) {}

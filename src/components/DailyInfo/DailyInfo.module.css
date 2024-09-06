@@ -1,0 +1,19 @@
+.containerDailyInfo {
+  padding: 20px 20px 40px;
+  height: 220px;
+}
+
+.dataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .containerDailyInfo {
+    height: 234px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
